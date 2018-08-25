@@ -8,12 +8,13 @@ export default class App extends React.Component {
 
   setLogin = () => {
     this.setState({ isLogin: true });
-    // this.state.isLogin = true;asdasd
+     this.state.isLogin = true;
   }
 
   render() {
     return (
       <View style={styles.container}>
+        
           <Button onPress={() => this.setLogin()}
             title="1"
             color="#841584" />
@@ -43,9 +44,9 @@ export default class App extends React.Component {
           <Button onPress={() => this.setLogin()}
             title="9"
             color="#841584" />
-            
+
           <Button onPress={() => this.setLogin()}
-            title="Login"
+            title="+"
             color="#841584" />  
 
       </View>
