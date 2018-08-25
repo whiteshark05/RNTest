@@ -8,24 +8,46 @@ export default class App extends React.Component {
 
   setLogin = () => {
     this.setState({ isLogin: true });
-    // this.state.isLogin = true;
+    // this.state.isLogin = true;asdasd
   }
 
   render() {
-    if (!this.state.isLogin) {
-      return (
-        <View style={styles.container}>
-          <Button onPress={() => this.setLogin()}
-            title="Login"
-            color="#841584" />
-        </View>
-      )
-    }
     return (
       <View style={styles.container}>
-        <Text>Open up App.js to start working on your app!</Text>
-        <Text>Changes you make will automatically reload.</Text>
-        <Text>Shake your phone to open the developer menu.</Text>
+          <Button onPress={() => this.setLogin()}
+            title="1"
+            color="#841584" />
+          <Button onPress={() => this.setLogin()}
+            title="2"
+            color="#841584" />
+          <Button onPress={() => this.setLogin()}
+            title="3"
+            color="#841584" />
+
+          <Button onPress={() => this.setLogin()}
+            title="4"
+            color="#841584" />
+          <Button onPress={() => this.setLogin()}
+            title="5"
+            color="#841584" />
+          <Button onPress={() => this.setLogin()}
+            title="6"
+            color="#841584" />
+
+          <Button onPress={() => this.setLogin()}
+            title="7"
+            color="#841584" />
+          <Button onPress={() => this.setLogin()}
+            title="8"
+            color="#841584" />
+          <Button onPress={() => this.setLogin()}
+            title="9"
+            color="#841584" />
+            
+          <Button onPress={() => this.setLogin()}
+            title="Login"
+            color="#841584" />  
+
       </View>
     );
   }
